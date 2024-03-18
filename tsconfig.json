@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+        "@types/*": ["src/types/*"],
+        "@styles/*": ["src/common/styles/*"],
+        "@components/*": ["src/components/*"],
+        "@actions/*": ["src/redux/actions/*"],
+        "@apis/*": ["src/redux/api/*"],
+        "@reducers/*": ["src/redux/reducers/*"],
+        "@sagas/*": ["src/redux/sagas/*"],
+        "@assets/*": ["assets/*"],
+        "@store": ["src/redux/store"],
+        "@constants/*": ["src/common/constants/*"],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/MenuItem"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
