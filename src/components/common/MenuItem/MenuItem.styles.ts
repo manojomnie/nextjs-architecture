@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 /*
 &:hover {
@@ -26,7 +26,7 @@ export const MenuItemContainer = styled.a<{ depth: number }>`
     height: 30px;
     margin-right: 10px;
   }
-  
+
   &:hover {
     opacity: 0.5;
     cursor: pointer;

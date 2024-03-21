@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -27,6 +30,7 @@
     "@types/styled-components": "^5.1.34",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
+    "prettier": "^3.2.5",
     "typescript": "4.4.2"
   }
 }

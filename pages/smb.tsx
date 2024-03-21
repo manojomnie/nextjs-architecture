@@ -1,5 +1,5 @@
-import type { NextPage } from "next";
-import Container from "@components/common/Container";
+import type { NextPage } from 'next';
+import Container from '@components/common/Container';
 
 const SMB: NextPage = () => {
   return (

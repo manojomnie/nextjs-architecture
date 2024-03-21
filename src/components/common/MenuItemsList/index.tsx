@@ -1,6 +1,6 @@
-import { MenuItem as MenuItemType } from "../../constants/menu-items";
-import MenuItem from "../MenuItem";
-import { ListContainer } from "./MenuItemsList.styles";
+import { MenuItem as MenuItemType } from '../../constants/menu-items';
+import MenuItem from '../MenuItem';
+import { ListContainer } from './MenuItemsList.styles';
 
 type MenuItemsListProps = {
   options: MenuItemType[];

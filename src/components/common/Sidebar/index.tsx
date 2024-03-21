@@ -1,6 +1,6 @@
-import { SidebarContainer } from "./Sidebar.styles";
-import { MENU_ITEMS } from "@constants/menu-items";
-import MenuItemsList from "@components/common/MenuItemsList";
+import { SidebarContainer } from './Sidebar.styles';
+import { MENU_ITEMS } from '@constants/menu-items';
+import MenuItemsList from '@components/common/MenuItemsList';
 
 type SidebarProps = {
   isOpened: boolean;
